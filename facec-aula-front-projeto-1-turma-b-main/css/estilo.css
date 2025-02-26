@@ -1,0 +1,39 @@
+body{
+
+background-color: #b0b0b0;
+
+}
+
+
+#conteudo {
+    width: 400px;/*  largura do quadrado do fundo   */
+    height: 400px;/*  altura do quadrado de fundo   */
+    background-color: #b1b1b1;/*  cor de fundo   */
+    margin: 0 auto;
+
+    display: flex;/*     */
+    flex-direction: column;/*   alinha o texto em um formato de coluna  */
+    align-items: center;/*  alinha o texto ao centro por largura   */
+    justify-content: center;/*  alinha o texto ao centro da pagina por altura   */
+}
+
+.input {
+    color: rgb(48, 158, 192);/*  cor   */
+    width: 80%;/*  largura   */
+    height: 40px;/*  altura   */
+    margin-bottom: 10px;/*  tamanho do espaçamento de baixo do quadrado   */
+    padding: 10px;/*  tamanho do espaçamento dentro do quadrado   */
+    box-sizing: border-box;/*  limita o tamanho do quadrado   */
+}
+#botao-entrar{
+
+width: 80%;
+height: 40px;
+background-color: #4169e1;
+border: solid 3px#000;
+border-radius: 10px;
+font-weight: bold;
+color: #FFF;
+font-size: 18px;
+
+}
